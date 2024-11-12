@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(226, 191, 77);
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    width: 500px;
+    margin-left: 24%;
+}
+
+.alfabetoarriba{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    grid-column: 2 / 11;
+    justify-content: space-around;
+}
+
+.tablero{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-column: 2 / 8;
+    grid-row: 2 / 7;
+    width: 99%;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+.numeroizquierda{
+    width: 20px;
+    grid-row: 2 / 7;
+    display: grid;
+}
+
+.numeroizquierda>div{
+    width: 20px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.alfabetoarriba>div{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.numeroderecha{
+    margin-left: 8px;
+}
+
+/*Colores del tablero*/
+
+.blanco{
+    background-color: rgba(189, 255, 146, 0.842);
+    width: 75px;
+    height: 72px;
+}
+
+.Negro{
+    background-color: rgb(18, 126, 15);
+    width: 75px;
+    height: 72px;
+}
+
+/*Ficha*/
+
+.ficha{
+    text-align: center;
+    font-size: 55px;
+    cursor: pointer;
+}
+
+
+
+
+
+
